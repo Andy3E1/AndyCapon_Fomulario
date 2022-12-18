@@ -1,0 +1,38 @@
+body{
+    
+    height: 753px;
+margin: -8px;
+    background-image: url(https://res.cloudinary.com/practicaldev/image/fetch/s--BuPz-p40--/c_imagga_scale,f_auto,fl_progressive,h_420,q_auto,w_1000/https://dev-to-uploads.s3.amazonaws.com/uploads/articles/nphrgz8yfnjylrwfr0yl.png);
+}
+.cambio{
+    text-align: center;
+}
+.cambio button{
+ margin-top: 20px;
+ margin-right: 20px;
+ cursor: pointer;
+ background-color: #1f53c5;
+padding: 12px;
+color: white;
+margin: 16px, 0;
+font-size: 7px;
+box-shadow: 7px 13px 15px rgb(67, 63, 63);
+border-radius: 7px;
+}
+.cuadro_ticket{
+    width: 400px;
+    background-color: #24303c;
+    padding: 30px;
+    margin: auto;
+    margin: top 100px; 
+    border-radius: 4px;
+    font-family: 'calibri';
+    color: white;
+    box-shadow: 7px 13px 37px #000;
+}
+.datos_personales{
+    text-align: center;
+}
+.datos_ticket{
+    text-align: center;
+}

@@ -1,0 +1,137 @@
+/*.componentes{
+    text-align: center;
+}
+body {
+    background-color: bisque;
+ 
+   
+}*/
+
+/*body {
+
+    height: 753px;
+margin: -8px;
+}
+.cambio{
+    text-align: center;
+}
+.datos {
+    text-align: center;
+}
+.datos h1{
+   color: aliceblue;
+   font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.datos p {
+    color: aliceblue;
+    font-size: 21px;
+    font-weight: 1000;
+}
+.fondo{  
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(135deg, #00B7D4,#505488, #2F3F80, 
+    #161569, #5A4894, #803d7a, #593442);
+    background-size: 500%;
+    position: relative;
+    overflow: hidden;
+}
+.cambio button {
+    margin: 10px;
+    margin-bottom: 20px;
+    position: relative;
+    padding: 0px 40px;
+    border-radius: 8px;
+    outline: none;
+    background-image: linear-gradient(to left, #A950A1, #2D3A54, #A950A1);
+    background-size: 200%;
+    color: #dcc2e4;
+    cursor: pointer;
+    transition: .5s;
+    overflow: hidden;
+}
+.cambio h1{
+    font-size: 15px;
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+}
+.datos button{
+    margin: 0px;
+    margin-bottom: 20px;
+    position: relative;
+    padding: 5px 40px;
+    border-radius: 8px;
+    outline: none;
+    background-image: linear-gradient(to left, #A950A1, #2D3A54, #A950A1);
+    background-size: 200%;
+    color: #dcc2e4;
+    cursor: pointer;
+    transition: .5s;
+    overflow: hidden;
+}*/
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    
+    height: 753px;
+margin: -8px;
+    background-image: url(https://res.cloudinary.com/practicaldev/image/fetch/s--BuPz-p40--/c_imagga_scale,f_auto,fl_progressive,h_420,q_auto,w_1000/https://dev-to-uploads.s3.amazonaws.com/uploads/articles/nphrgz8yfnjylrwfr0yl.png);
+}
+.seccion_formulario{
+    width: 400px;
+    background-color: #24303c;
+    padding: 30px;
+    margin: auto;
+    margin: top 100px; 
+    border-radius: 4px;
+    font-family: 'calibri';
+    color: white;
+    box-shadow: 7px 13px 37px #000;
+}
+
+.ingreso {
+    width: 100%;
+    background: #24303c;
+    color: white;
+    padding: 10px;
+    border-radius: 4px;
+    margin-bottom: 16px;
+    border: 1px solid #1f53c5;
+    font-family: 'calibri';
+    font-size: 18px;
+}
+.seccion_formulario button {
+width: 100%;
+background-color: #1f53c5;
+border: none;
+padding: 12px;
+color: white;
+margin: 16px, 0;
+font-size: 16px;
+cursor: pointer;
+}
+.cambio{
+    text-align: center;
+}
+.cambio button{
+ margin-top: 20px;
+ margin-right: 20px;
+ cursor: pointer;
+ background-color: #1f53c5;
+padding: 12px;
+color: white;
+margin: 16px, 0;
+font-size: 7px;
+box-shadow: 7px 13px 15px rgb(67, 63, 63);
+border-radius: 7px;
+}
+.seccion_formulario h2{
+    text-align: center;
+}
+
+
+

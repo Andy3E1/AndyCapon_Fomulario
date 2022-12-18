@@ -1,0 +1,62 @@
+<!--<div>
+    <button (click)="navegacion()">Pagina Principal</button>
+    <button (click)="navegar()" >Informacion</button>
+    <button (click)="pag_2()">Hobbies</button>
+    <button (click)="pag_3()" >Profesion</button>
+    <h1>Blog-Capón Andy-3E1-Formulario</h1>
+    <h4>Blog personal de Andy Capon- 3E1- Programación Movil</h4>
+    <div><br>
+<div>
+    <input [(ngModel)]="numero"/>
+    <br />
+
+<strong *ngIf="numero ==''">No hay numero</strong>
+<strong *ngIf="numero > 3">{{numero}}, El numero es mayor a 3</strong>
+<strong *ngIf="numero == 3">{{numero}}, El numero es 3</strong>
+<strong *ngIf="numero < 3 && numero>0">{{numero}}, El numero es menor que 3</strong>
+<strong *ngIf="numero < 0">{{numero}}, El numero es menor que 0</strong>
+</div>
+<h2>Sueldos:</h2>
+<ul *ngFor="let sueldos of sueldos">
+    <li>{{sueldos}}</li>
+</ul>
+<div *ngFor="let sueldo of sueldos">
+    <div>Sueldo: {{sueldo}}</div>
+</div>
+<button (click)="almacenar()">Almacenar</button><hr>-->
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario_Capon</title>
+</head>
+<body>
+    <div class="pagina">
+        <header class="fondo">
+    <div class="cambio">
+        <button (click)="navegacion()"><h1>Formulario</h1></button>
+        <button (click)="navegar()" ><h1>Informacion</h1></button>
+        <button (click)="pag_2()"><h1>Hobbies</h1></button>
+        <button (click)="pag_3()" ><h1>Profesion</h1></button></div>
+       <br><br>
+        <div class="datos">
+    <section class="seccion_formulario">
+        <h2>FORMULARIO</h2> <br>
+ <input class="ingreso" type="text" [(ngModel)]="Nombre" placeholder="Ingrese el nombre"><br>
+ <input class="ingreso" type="text" [(ngModel)]="Apellido" placeholder="Ingrese el apellido"><br>
+ <input class="ingreso" type="email" [(ngModel)]="correo" placeholder="Ingrese el correo"><br>
+ <input class="ingreso" type="password" [(ngModel)]="contrasena" placeholder="Ingrese contraseña"><br>
+ <input class="ingreso" type="password" [(ngModel)]="confirmarcontra" placeholder="Confirma contraseña"><br>
+ <input class="ingreso" type="tel" [(ngModel)]="telefono" placeholder="Ingrese el telefono"><br>
+ <button (click)="informacion()" (click)="nav()">Enviar</button>
+</section>
+
+</div>
+</header>
+</div>
+</body>
+</html>
