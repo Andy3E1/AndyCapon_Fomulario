@@ -24,6 +24,7 @@ telefono: any;
       this.numero=3;
       //this.almacenar();
       this.informacion();
+      localStorage.clear();
 }
 navegar(){this.router.navigate(['web1']); }
 navegacion(){this.router.navigate(['volver']);}
