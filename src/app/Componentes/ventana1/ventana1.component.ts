@@ -8,16 +8,15 @@ import { Router } from '@angular/router';
 export class Ventana1Component implements OnInit {
 
   constructor(private router:Router) { }
-  Nombre:any
+  Nombre:any;
   Apellido: any;
   correo:any
-  contraseña:any
+  contrasena:any
   confirmarcontra:any
   telefono:any
   ngOnInit(): void {
     this.recuperar();
     this.recuperar_Formulario();
-
   }
 resultado:any;
 mensaje:any;
@@ -33,12 +32,12 @@ recuperar()
   this.mensaje=localStorage.getItem('mensaje');
 }
 recuperar_Formulario(){
-  this.Nombre= localStorage.getItem('Nombre')
-  this.Apellido= localStorage.getItem('Apellido')
-  this.correo= localStorage.getItem('correo')
-  this.contraseña= localStorage.getItem('contraseña')
-  this.confirmarcontra= localStorage.getItem('confir' )
-  this.telefono= localStorage.getItem('telefono')
+  this.Apellido=localStorage.getItem('Apellido'),
+  this.Nombre=localStorage.getItem('Nombre'),
+  this.correo=localStorage.getItem('correo'),
+  this.contrasena=localStorage.getItem('contraseña'),
+  this.confirmarcontra=localStorage.getItem('confir'),
+  this.telefono=localStorage.getItem('telefono');
 
 }
 }
